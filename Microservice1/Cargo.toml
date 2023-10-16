@@ -3,7 +3,7 @@ name = "Microservice1"
 version = "0.1.0"
 edition = "2021"
 description = " practice on some stuff"
-authors = "s moeen kamali"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -14,3 +14,6 @@ serde_json = "1.0"
 schemars = "0.8"
 okapi = { version = "0.6.0-alpha-1" }
 rocket_okapi = { version = "0.8.0-rc.2", features = ["swagger", "secrets"] }
+mongodb = "2.1.0"
+futures = "0.3"
+chrono = "0.4"
