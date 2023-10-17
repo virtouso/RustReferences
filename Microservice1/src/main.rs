@@ -1,7 +1,8 @@
 mod routes;
 mod models;
 
-#[macro_use] extern crate rocket;
+#[macro_use]
+extern crate rocket;
 
 
 // fn main() {
@@ -18,3 +19,6 @@ fn index() -> &'static str {
 fn rocket() -> _ {
     rocket::build().mount("/", routes![index])
 }
+
+
+

@@ -2,6 +2,7 @@ use rocket_okapi::JsonSchema;
 use serde::{Deserialize, Serialize};
 use rocket::http::Header;
 
+
 #[derive(Responder, Debug, Deserialize, Serialize, JsonSchema)]
 pub struct MetaResult {
     pub message: String,
